@@ -1,0 +1,79 @@
+name: Update README Assets
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs once a day
+  workflow_dispatch:        # lets you trigger it manually
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      # Pull in yesterday's already-working files as a baseline.
+      # If the "output" branch doesn't exist yet, this step just fails quietly
+      # and the next step creates the folder fresh.
+      - name: Checkout existing output branch as baseline
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          path: dist
+
+      - name: Ensure dist folder exists
+        run: mkdir -p dist
+
+      # Snake: only overwrites the baseline file if generation succeeds.
+      - name: Generate the snake SVGs
+        continue-on-error: true
+        uses: Platane/snk@v3
+        with:
+          github_user_name: mk-2007
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # Stats/streak/top-langs/activity graph: fetch to a temp file first,
+      # verify it's really an SVG (not an error page), and only then replace
+      # the cached copy. If the fetch fails or returns garbage, the old
+      # cached file in dist/ from the baseline checkout is left untouched.
+      - name: Fetch and validate analytics graphics
+        run: |
+          fetch_safe () {
+            local url="$1"
+            local out="$2"
+            local tmp="${out}.tmp"
+            curl -sL --retry 3 --retry-delay 3 --max-time 20 "$url" -o "$tmp" || true
+            if [ -s "$tmp" ] && grep -q "<svg" "$tmp"; then
+              mv "$tmp" "$out"
+              echo "Updated $out"
+            else
+              echo "Fetch failed or invalid for $out — keeping previous cached version"
+              rm -f "$tmp"
+            fi
+          }
+
+          fetch_safe "https://github-readme-stats.vercel.app/api?username=mk-2007&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9&count_private=true" "dist/stats.svg"
+          fetch_safe "https://github-readme-streak-stats.herokuapp.com/?user=mk-2007&theme=tokyonight&hide_border=true&background=0d1117&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA" "dist/streak.svg"
+          fetch_safe "https://github-readme-stats.vercel.app/api/top-langs/?username=mk-2007&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" "dist/top-langs.svg"
+          fetch_safe "https://github-readme-activity-graph.vercel.app/graph?username=mk-2007&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=A78BFA&line=A78BFA&point=ffffff&area=true" "dist/activity-graph.svg"
+
+      - name: Confirm what will be published
+        run: ls -la dist
+
+      - name: Push assets to the "output" branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

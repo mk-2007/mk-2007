@@ -62,9 +62,9 @@ jobs:
             fi
           }
 
-          fetch_safe "https://github-readme-stats.vercel.app/api?username=mk-2007&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9&count_private=true" "dist/stats.svg"
+          fetch_safe "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mk-2007&theme=github_dark" "dist/stats.svg"
           fetch_safe "https://github-readme-streak-stats.herokuapp.com/?user=mk-2007&theme=tokyonight&hide_border=true&background=0d1117&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA" "dist/streak.svg"
-          fetch_safe "https://github-readme-stats.vercel.app/api/top-langs/?username=mk-2007&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" "dist/top-langs.svg"
+          fetch_safe "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mk-2007&theme=github_dark" "dist/top-langs.svg"
           fetch_safe "https://github-readme-activity-graph.vercel.app/graph?username=mk-2007&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=A78BFA&line=A78BFA&point=ffffff&area=true" "dist/activity-graph.svg"
 
       - name: Confirm what will be published

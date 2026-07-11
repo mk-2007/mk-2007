@@ -58,12 +58,26 @@ currently: Deepening applied-AI skills — RAG pipelines, agentic tooling, LLM a
 
 <div align="center">
 
+**Languages**
+<br/>
 <img src="https://skillicons.dev/icons?i=c,cpp,python,ts,js&theme=dark" />
+
 <br/><br/>
+
+**Frontend & 3D**
+<br/>
 <img src="https://skillicons.dev/icons?i=react,nextjs,threejs,vite,html,css&theme=dark" />
+
 <br/><br/>
+
+**Backend & Systems**
+<br/>
 <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,sqlite,qt&theme=dark" />
+
 <br/><br/>
+
+**Tools & Platforms**
+<br/>
 <img src="https://skillicons.dev/icons?i=git,github,vercel,netlify,digitalocean,vscode&theme=dark" />
 
 </div>
@@ -87,31 +101,22 @@ currently: Deepening applied-AI skills — RAG pipelines, agentic tooling, LLM a
 <table>
 <tr>
 <td width="50%">
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=mk-2007&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9&count_private=true" />
+<img width="100%" src="https://raw.githubusercontent.com/mk-2007/mk-2007/output/stats.svg" />
 </td>
 <td width="50%">
-<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=mk-2007&theme=tokyonight&hide_border=true&background=0d1117&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA" />
-</td>
-</tr>
-<tr>
-<td width="50%">
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mk-2007&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" />
-</td>
-<td width="50%">
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mk-2007&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=A78BFA&line=A78BFA&point=ffffff" />
+<img width="100%" src="https://raw.githubusercontent.com/mk-2007/mk-2007/output/streak.svg" />
 </td>
 </tr>
 </table>
 
-</div>
-
 <br/>
 
-## 🏆 Trophies
+<!-- Full-width mountain-style activity chart -->
+<img width="100%" src="https://raw.githubusercontent.com/mk-2007/mk-2007/output/activity-graph.svg" />
 
-<div align="center">
+<br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=mk-2007&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=8" />
+<img width="60%" src="https://raw.githubusercontent.com/mk-2007/mk-2007/output/top-langs.svg" />
 
 </div>
 

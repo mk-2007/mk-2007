@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Mahandar%20Khatri&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Living%20to%20lead%20a%20change.&descAlignY=62&descAlign=50" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=120&section=header" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=680&lines=CS+Undergrad+%40+FAST-NUCES+Karachi;Building+RAG+chatbots+%26+AI+agents;Python+%7C+LangChain+%7C+React+%7C+FastAPI;Currently+diving+deeper+into+applied+AI+%F0%9F%A4%96" alt="Typing SVG" />
@@ -42,16 +42,16 @@
 
 | Project | Description | Tech Stack | Status | Repo |
 |---|---|---|:---:|:---:|
-| **RAG ChatBot** | Retrieval-augmented Q&A chatbot using vector search over custom documents | `LangChain` `HuggingFace` `ChatGroq` `Chroma` | ✅ Completed | [View](https://github.com/mk-2007/AI-Season---RAG-ChatBot) |
-| **Udaan — AI Travel Planner** | Full-stack travel planner with a scroll-driven 3D flight animation | `Next.js` `React Three Fiber` `TypeScript` `Express` `SQLite` | ✅ Completed | [View](https://github.com/mk-2007/TravelPlanner---Udaan) |
-| **TypeMaster** | Console-based typing game demonstrating core C++ OOP concepts | `C++` `OOP` `File I/O` | ✅ Completed | [View](https://github.com/mk-2007/TypeMaster---C-typing-appilcation) |
-| **3D Portfolio Website** | Scroll-driven 3D personal portfolio with animated character scenes | `React` `Three.js` `Framer Motion` `Vite` | ✅ Completed | [View](https://github.com/mk-2007) |
+| **Udaan — AI Travel Planner** | Full-stack travel planner built around prompt-engineering principles, with a scroll-driven 3D flight animation | `Next.js` `TypeScript` `Prompt Engineering` | ✅ Uploaded | [View](https://github.com/mk-2007/TravelPlanner---Udaan) |
+| **TypeMaster** | Console-based typing app using core OOP concepts, with interactive ANSI coloring for an attractive console UI | `C++` `OOP` `ANSI Console UI` | ✅ Uploaded | [View](https://github.com/mk-2007/TypeMaster---C-typing-appilcation) |
+| **Multimodal RAG System** | Retrieval-augmented system built from scratch, using the "Attention Is All You Need" paper as source material | `Python` `RAG` `Multimodal` | 🚧 In Progress | *not yet public* |
+| **3D Corridor Portfolio** | Personal portfolio as a walkable 3D corridor with themed rooms for Home / Skills / Projects / About | `Next.js` `React Three Fiber` `drei` | 🚧 In Progress | *not yet public* |
 | **Windows Theme Studio** | Glassmorphic shell replacement for Windows — floating dock, acrylic UI | `PyQt6` `FastAPI` `WebSockets` | 🚧 In Progress | *not yet public* |
 | **Mahi — Voice OS Agent** | JARVIS-style always-on voice agent with 14 skill modules | `Python` `Tkinter` `Ollama` | 🚧 In Progress | *not yet public* |
 
 </div>
 
-<sub>🚧 items are active work-in-progress and intentionally not linked yet — they'll move up with a repo link once pushed.</sub>
+<sub>🚧 items are active work-in-progress — they'll move up with a repo link once pushed.</sub>
 
 <br/>
 
@@ -59,27 +59,15 @@
 
 <div align="center">
 
-**Languages**
+**Languages & Frontend**
 <br/>
-<img src="https://skillicons.dev/icons?i=c,cpp,python,ts,js&theme=dark" />
+<img width="92%" src="https://skillicons.dev/icons?i=c,cpp,python,ts,js,react,nextjs,threejs,vite,html,css&theme=dark&perline=11" />
 
 <br/><br/>
 
-**Frontend & 3D**
+**Backend & Tools**
 <br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,threejs,vite,html,css&theme=dark" />
-
-<br/><br/>
-
-**Backend & Systems**
-<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,sqlite,qt&theme=dark" />
-
-<br/><br/>
-
-**Tools & Platforms**
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,vercel,netlify,digitalocean,vscode&theme=dark" />
+<img width="92%" src="https://skillicons.dev/icons?i=nodejs,express,fastapi,sqlite,qt,git,github,vercel,netlify,digitalocean,vscode&theme=dark&perline=11" />
 
 </div>
 

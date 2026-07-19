@@ -1,12 +1,23 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=230&section=header&text=Mahandar%20Khatri&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Living%20to%20lead%20a%20change.&descAlignY=54&descAlign=50" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Mahandar%20Khatri&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Living%20to%20lead%20a%20change.&descAlignY=62&descAlign=50" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=700&lines=CS+Undergrad+%40+FAST-NUCES+Karachi;Building+RAG+chatbots+%26+AI+agents;Python+%7C+LangChain+%7C+React+%7C+FastAPI;Currently+diving+deeper+into+applied+AI+%F0%9F%A4%96" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=680&lines=CS+Undergrad+%40+FAST-NUCES+Karachi;Building+RAG+chatbots+%26+AI+agents;Python+%7C+LangChain+%7C+React+%7C+FastAPI;Currently+diving+deeper+into+applied+AI+%F0%9F%A4%96" alt="Typing SVG" />
 </a>
 
+</div>
+
 <br/>
+
+<!-- ── Hero row: two matched custom SVG cards ── -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mk-2007/mk-2007/main/ascii-portrait.svg" width="45%"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/mk-2007/mk-2007/main/info-card.svg" width="45%"/>
+</p>
+
+<div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mahandar-khatri)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mk6447959@gmail.com)
@@ -17,33 +28,11 @@
 
 <br/>
 
-<!-- ── Hero: ASCII portrait + quick-info card side by side ── -->
-<table width="100%">
-<tr>
-<td width="46%" valign="top" align="center">
-<img src="https://raw.githubusercontent.com/mk-2007/mk-2007/main/ascii-portrait.svg" width="100%"/>
-</td>
-<td width="54%" valign="top">
+## 🎬 Contribution Snake
 
-### 🧬 About Me
-
-```yaml
-name: Mahandar Khatri
-role: BSCS Student @ FAST-NUCES Karachi
-focus: AI Agents · Full-Stack Apps · Systems UI
-philosophy: "Living to lead a change."
-currently: Deepening applied-AI skills — RAG pipelines, agentic tooling, LLM apps
-```
-
-- 🎓 Second-semester Computer Science student, deep in OOP (C++), shipping side projects alongside coursework.
-- 🤖 Currently focused on **applied AI** — retrieval-augmented generation, LangChain pipelines, and agentic workflows.
-- 🛠️ Also comfortable across **full-stack web** (Next.js, FastAPI, React Three Fiber) and **desktop systems tooling** (PyQt6).
-- 🧠 Sharpening problem-solving on **Codeforces** — greedy, simulation, cycle detection, constructive algorithms.
-- 🌱 Led a 6-member team on a community-teaching initiative ("Ilm Ki Roshni") across two schools in Karachi.
-
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="https://raw.githubusercontent.com/mk-2007/mk-2007/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%"/>
+</div>
 
 <br/>
 
@@ -96,16 +85,6 @@ currently: Deepening applied-AI skills — RAG pipelines, agentic tooling, LLM a
 
 <br/>
 
-## 🎬 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/mk-2007/mk-2007/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%"/>
-
-</div>
-
-<br/>
-
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -123,7 +102,6 @@ currently: Deepening applied-AI skills — RAG pipelines, agentic tooling, LLM a
 
 <br/>
 
-<!-- Full-width mountain-style activity chart -->
 <img width="100%" src="https://raw.githubusercontent.com/mk-2007/mk-2007/output/activity-graph.svg" />
 
 <br/><br/>

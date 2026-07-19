@@ -17,7 +17,15 @@
 
 <br/>
 
-## 🧬 About Me
+<!-- ── Hero: ASCII portrait + quick-info card side by side ── -->
+<table width="100%">
+<tr>
+<td width="46%" valign="top" align="center">
+<img src="https://raw.githubusercontent.com/mk-2007/mk-2007/main/ascii-portrait.svg" width="100%"/>
+</td>
+<td width="54%" valign="top">
+
+### 🧬 About Me
 
 ```yaml
 name: Mahandar Khatri
@@ -32,6 +40,10 @@ currently: Deepening applied-AI skills — RAG pipelines, agentic tooling, LLM a
 - 🛠️ Also comfortable across **full-stack web** (Next.js, FastAPI, React Three Fiber) and **desktop systems tooling** (PyQt6).
 - 🧠 Sharpening problem-solving on **Codeforces** — greedy, simulation, cycle detection, constructive algorithms.
 - 🌱 Led a 6-member team on a community-teaching initiative ("Ilm Ki Roshni") across two schools in Karachi.
+
+</td>
+</tr>
+</table>
 
 <br/>
 

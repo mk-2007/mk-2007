@@ -10,12 +10,17 @@
 
 <br/>
 
-<!-- ── Hero row: two matched custom SVG cards ── -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mk-2007/mk-2007/main/ascii-portrait.svg" width="45%"/>
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/mk-2007/mk-2007/main/info-card.svg" width="45%"/>
-</p>
+<!-- ── Hero row: table layout keeps both cards locked side by side, no wrap ── -->
+<table width="100%">
+<tr>
+<td width="50%" align="center">
+<img src="https://raw.githubusercontent.com/mk-2007/mk-2007/main/ascii-portrait.svg" width="100%"/>
+</td>
+<td width="50%" align="center">
+<img src="https://raw.githubusercontent.com/mk-2007/mk-2007/main/info-card.svg" width="100%"/>
+</td>
+</tr>
+</table>
 
 <div align="center">
 
@@ -43,8 +48,10 @@
 | Project | Description | Tech Stack | Status | Repo |
 |---|---|---|:---:|:---:|
 | **Udaan — AI Travel Planner** | Full-stack travel planner built around prompt-engineering principles, with a scroll-driven 3D flight animation | `Next.js` `TypeScript` `Prompt Engineering` | ✅ Uploaded | [View](https://github.com/mk-2007/TravelPlanner---Udaan) |
+| **AI Season — RAG ChatBot** | Retrieval-augmented Q&A chatbot with a vector-search pipeline over a custom knowledge base | `LangChain` `HuggingFace` `ChatGroq` `Chroma` | ✅ Uploaded | [View](https://github.com/mk-2007/AI-Season---RAG-ChatBot) |
+| **Multimodal RAG ChatBot** | Retrieval-augmented system built from scratch, using the "Attention Is All You Need" paper as source material | `Python` `RAG` `Multimodal` | ✅ Uploaded | [View](https://github.com/mk-2007/Multimodal-Rag-ChatBot) |
+| **WhatsApp Bot — Al Noor Institute** | WhatsApp RAG chatbot with conversational memory — auto-detects and recalls personal facts across a session | `Baileys` `LangChain.js` `Groq API` `Chroma` | ✅ Uploaded | [View](https://github.com/mk-2007/WhatsApp-Bot---Al-Noor-Institute) |
 | **TypeMaster** | Console-based typing app using core OOP concepts, with interactive ANSI coloring for an attractive console UI | `C++` `OOP` `ANSI Console UI` | ✅ Uploaded | [View](https://github.com/mk-2007/TypeMaster---C-typing-appilcation) |
-| **Multimodal RAG System** | Retrieval-augmented system built from scratch, using the "Attention Is All You Need" paper as source material | `Python` `RAG` `Multimodal` | 🚧 In Progress | *not yet public* |
 | **3D Corridor Portfolio** | Personal portfolio as a walkable 3D corridor with themed rooms for Home / Skills / Projects / About | `Next.js` `React Three Fiber` `drei` | 🚧 In Progress | *not yet public* |
 | **Windows Theme Studio** | Glassmorphic shell replacement for Windows — floating dock, acrylic UI | `PyQt6` `FastAPI` `WebSockets` | 🚧 In Progress | *not yet public* |
 | **Mahi — Voice OS Agent** | JARVIS-style always-on voice agent with 14 skill modules | `Python` `Tkinter` `Ollama` | 🚧 In Progress | *not yet public* |
